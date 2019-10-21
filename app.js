@@ -201,8 +201,11 @@ function getId(x) {
 function renderQuestion() {
     //div_test_doc = getId("test_instructions");
     mTest = getId("test");
-    if (flagShuffle == true) mQuestions = shuffle(mQuestions);
-    // flagShuffle = false;
+    if (flagShuffle == true) {
+        mQuestions = shuffle(mQuestions);
+        //clear shuffle flag
+        flagShuffle = false;
+    }
     if (mPos >= mQuestions.length) {
         //are we done?
         var btnRedo = "<button onclick='doMissedQuestions()'>Redo Missed Question&#40s&#41</button>";
@@ -368,6 +371,11 @@ function loadQuestionsArray() {
     mStrResult = '<p>Missed question(s):<p>';
     mPos = 0;
     mCorrect = 0;
+    if (document.getElementById('flagShuffle').checked === true)
+    //set shuffle flag if checked
+        flagShuffle = true;
+    else
+        flagShuffle = false;
     renderQuestion();
 }
 
@@ -379,12 +387,9 @@ loadQuestionsArray();
 document.getElementById("loadSubsetBtn").addEventListener('click', loadQuestionsArray, false);
 window.addEventListener("load", renderQuestion, false);
 window.addEventListener("load", popArray, false);
-document.getElementById('flagShuffle').addEventListener('click', function() {
-    if (document.getElementById('flagShuffle').checked === true)
-        flagShuffle = true;
-    else
-        flagShuffle = false;
-})
+// document.getElementById('flagShuffle').addEventListener('click', function() {
+
+// })
 btnOptions.addEventListener('click', function() {
     optPanel.classList.toggle('hidden');
 })
