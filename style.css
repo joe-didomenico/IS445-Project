@@ -90,6 +90,7 @@ button#btnshow {
 }
 
 div.btn-panel-show {
+    text-align: right;
     margin-top: 20px;
 }
 
