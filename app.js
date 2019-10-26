@@ -15,12 +15,10 @@ let arrMissedQuestions = [];
 
 let mQuestions = [];
 const mQuestionsAll = [
-
     [`What is performance management?`, ``, ``, ``, ``, ``, `<p class='space'>Performance management (PM) is a set of processes and managerial behaviors that include defining, monitoring, measuring, evaluating, and providing consequences for performance expectations.`, `HRM360-ch6`],
-    [`Four step of performance management:`, ``, ``, ``, ``, ``, `<p class='space'>Step 1: Defining performance.  <p class='space'>Step 2: Monitoring and evaluating performance.  <p class='space'>Step 3: Reviewing performance.  <p class='space'>Step 4: Providing consequences.`, `HRM360-ch6`],
-    [`Three issues with performance management:`, ``, ``, ``, ``, ``, `<p class='space'>First, performance management practices are often obsolete.<p class='space'>Second, PM is time consuming.<p class='space'>Third, performance reviews are too narrow.`, `HRM360-ch6`]
+    [`Four steps of performance management:`, ``, ``, ``, ``, ``, `<p class='space'>Step 1: Defining performance.  <p class='space'>Step 2: Monitoring and evaluating performance.  <p class='space'>Step 3: Reviewing performance.  <p class='space'>Step 4: Providing consequences.`, `HRM360-ch6`],
+    [`Three issues with performance management:`, ``, ``, ``, ``, ``, `<p class='space'>First, performance management practices are often obsolete.<p class='space'>Second, PM is time consuming.<p class='space'>Third, performance reviews are too narrow.`, `HRM360-ch6`],
     [` is a customized process between two or more people with the intent of enhancing learning and motivating change`, ``, ``, ``, ``, ``, `<p class='space'>Coaching`, `HRM360-ch6`],
-    [`Tuckman’s Five-Stage Model of Group Development`, ``, ``, ``, ``, ``, `forming, storming, norming, performing, adjourning`, `HRM360-ch8`],
     [`Two theories used in terms of learning:`, ``, ``, ``, ``, ``, `<p class='space'>(1) Classical conditioning modifies behavior by pairing an unconditioned stimulus with a conditioned stimulus in order to elicit an unconditioned response<p class='space'>(2) Operant conditioning modified behavior by following it with positive or negative consequences - Operant conditioning proposes that behavior can be modified by changing its consequences `, `HRM360-ch6`],
     [`Three components of operant conditioning:`, ``, ``, ``, ``, ``, `<p class='space'>(1) A stimulus in the environment cues attention to a behavior<p class='space'>(2) Behavior occurs in response to a stimulus<p class='space'>(3) Outcomes are the consequences of our behavior `, `HRM360-ch6`],
     [`Learing Reinforcement: `, ``, ``, ``, ``, ``, `<p class='space'>Enhance desirable behavior by giving positive consequences, or withholding negative ones`, `HRM360-ch6`],
@@ -29,7 +27,7 @@ const mQuestionsAll = [
     [`Learning Desired behaviors `, ``, ``, ``, ``, ``, `<p class='space'>Positive reinforcement (give positive consequences)<p class='space'> Negative reinforcement (withhold negative consequences)  `, `HRM360-ch6`],
     [`Learning Undesired behaviors  `, ``, ``, ``, ``, ``, `<p class='space'>Extinction (give/withhold no consequences)<p class='space'>Punishment (give negative consequences or  withhold positive consequences)  `, `HRM360-ch6`],
     [`What is Social learning Theory?`, ``, ``, ``, ``, ``, `<p class='space'>Social learning theory asserts that people observe others, and model their behavior accordingly; <p class='space'>learning is enhanced when learners have high task-specific self-efficacy `, `HRM360-ch6`],
-    [`What are the sources of self-efficacy?`, ``, ``, ``, ``, ``, `<p class='space'>Successful past performance<p class='space'>Vicarious experience<p class='space'>Verbal persuasion (coaching, displaying confidence) `, `HRM360-ch6`]
+    [`What are the sources of self-efficacy?`, ``, ``, ``, ``, ``, `<p class='space'>Successful past performance<p class='space'>Vicarious experience<p class='space'>Verbal persuasion (coaching, displaying confidence) `, `HRM360-ch6`],
     [`Performance Management`, ``, ``, ``, ``, ``, `<p class='space'>Performance management is a set of processes and managerial behaviors that include defining, monitoring, evaluating, and providing consequences for performance expectations<p class='space'>Through performance management, we can regulate what employees learn and direct that learning towards completing job tasks `, `HRM360-ch6`],
     [`Four step of performance management:`, ``, ``, ``, ``, ``, `<p class='space'>Step 1: Defining performance. Set goals, communicate expectations<p class='space'>Step 2: Monitoring and evaluating performance. Measure and evaluate progress and outcomes. <p class='space'>Step 3: Reviewing performance. Deliver feedback and coaching. <p class='space'>Step 4: Providing consequences. Adminiister valued rewards and appropriate punishment.`, `HRM360-ch6`],
     [`Smart Goals`, ``, ``, ``, ``, ``, `<p class='space'>Smart - an acronym for: <p class='space'>Specific<p class='space'>Measurable<p class='space'>Attainable<p class='space'>Results oriented<p class='space'>Time bound`, `HRM360-ch6`],
@@ -39,7 +37,7 @@ const mQuestionsAll = [
     [`Goals affect performance through four routes`, ``, ``, ``, ``, ``, `<p class='space'>(1) Directing attention towards goal-relevant activities<p class='space'>(2) Energizing people towards activity and behavior<p class='space'>(3) Encouraging persistence when possible<p class='space'>(4) Eliciting the use or learning (when needed) of task-relevant knowledge and strategies `, `HRM360-ch6`],
     [`Difficult (but not impossible) and specific goals can:`, ``, ``, ``, ``, ``, `<p class='space'>enhance performance more than no goals or “do your best” goals, yet only if feedback is received throughout `, `HRM360-ch6`],
     [`Participative goal setting (vs. assigned goals):`, ``, ``, ``, ``, ``, `enhances performance if it causes a person to set difficult goals`, `HRM360-ch6`],
-    [`Performance-based goals are more/less effective with complex tasks than are learning-based goals `, ``, ``, ``, ``, ``, `\Less`, `HRM360-ch6`],
+    [`Performance-based goals are more/less effective with complex tasks than are learning-based goals `, ``, ``, ``, ``, ``, `<p class='space'>Less`, `HRM360-ch6`],
 
 
 ];
