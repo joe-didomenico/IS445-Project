@@ -17,8 +17,8 @@ let mQuestions = [];
 const mQuestionsAll = [
     [`What is performance management?`, ``, ``, ``, ``, ``, `<p class='space'>Performance management (PM) is a set of processes and managerial behaviors that include defining, monitoring, measuring, evaluating, and providing consequences for performance expectations.`, `HRM360-ch6`],
     [`Four steps of performance management:`, ``, ``, ``, ``, ``, `<p class='space'>Step 1: Defining performance.  <p class='space'>Step 2: Monitoring and evaluating performance.  <p class='space'>Step 3: Reviewing performance.  <p class='space'>Step 4: Providing consequences.`, `HRM360-ch6`],
-    [`Three issues with performance management:`, ``, ``, ``, ``, ``, `<p class='space'>First, performance management practices are often obsolete.<p class='space'>Second, PM is time consuming.<p class='space'>Third, performance reviews are too narrow.`, `HRM360-ch6`],
-    [` is a customized process between two or more people with the intent of enhancing learning and motivating change`, ``, ``, ``, ``, ``, `<p class='space'>Coaching`, `HRM360-ch6`],
+    [`Three issues with performance management:`, ``, ``, ``, ``, ``, `<p class='space'>(1) performance management practices are often obsolete.<p class='space'>(2) Second, PM is time consuming.<p class='space'>(3) performance reviews are too narrow.`, `HRM360-ch6`],
+    [` What is a customized process between two or more people with the intent of enhancing learning and motivating change`, ``, ``, ``, ``, ``, `<p class='space'>Coaching`, `HRM360-ch6`],
     [`Two theories used in terms of learning:`, ``, ``, ``, ``, ``, `<p class='space'>(1) Classical conditioning modifies behavior by pairing an unconditioned stimulus with a conditioned stimulus in order to elicit an unconditioned response<p class='space'>(2) Operant conditioning modified behavior by following it with positive or negative consequences - Operant conditioning proposes that behavior can be modified by changing its consequences `, `HRM360-ch6`],
     [`Three components of operant conditioning:`, ``, ``, ``, ``, ``, `<p class='space'>(1) A stimulus in the environment cues attention to a behavior<p class='space'>(2) Behavior occurs in response to a stimulus<p class='space'>(3) Outcomes are the consequences of our behavior `, `HRM360-ch6`],
     [`Learing Reinforcement: `, ``, ``, ``, ``, ``, `<p class='space'>Enhance desirable behavior by giving positive consequences, or withholding negative ones`, `HRM360-ch6`],
@@ -38,6 +38,7 @@ const mQuestionsAll = [
     [`Difficult (but not impossible) and specific goals can:`, ``, ``, ``, ``, ``, `<p class='space'>enhance performance more than no goals or “do your best” goals, yet only if feedback is received throughout `, `HRM360-ch6`],
     [`Participative goal setting (vs. assigned goals):`, ``, ``, ``, ``, ``, `enhances performance if it causes a person to set difficult goals`, `HRM360-ch6`],
     [`Performance-based goals are more/less effective with complex tasks than are learning-based goals `, ``, ``, ``, ``, ``, `<p class='space'>Less`, `HRM360-ch6`],
+    [`Tuckman’s Five-Stage Model of Group Development`, ``, ``, ``, ``, ``, `forming, storming, norming, performing, adjourning`, `HRM360-ch8`]
 
 
 ];
