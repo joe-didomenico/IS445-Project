@@ -105,10 +105,9 @@ function popArray() {
     arryTopics = [];
     for (let index = 0; index < mQuestions.length; index++) {
         console.log(arryTopics.includes('B'));
-        console.log(`
-    mQuestions[index][TOPIC]) $ { mQuestions[index][TOPIC] }
-`);
+
         if (arryTopics.includes(mQuestions[index][TOPIC]) !== true) {
+            console.log(`mQuestions[index][TOPIC]) ${ mQuestions[index][TOPIC]}`);
             arryTopics.push(mQuestions[index][TOPIC]);
             addToListbox('lb', mQuestions[index][TOPIC]);
         }
