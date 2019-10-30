@@ -168,7 +168,7 @@ const mQuestionsAll = [
     [`Create a table CAR:`, ``, ``, ``, ``, ``, `<p class='space'>CREATE TABLE CAR ( <p class='space'>CAR_ID NUMBER , <p class='space'>CAR_MAKE VARCHAR2(15 BYTE), <p class='space'>CAR_MODEL VARCHAR2(10 BYTE), <p class='space'>CAR_YEAR number (*,0), <p class='space'>CAR_EXTCOLOR VARCHAR2(10 BYTE), <p class='space'>CAR_INTCOLOR VARCHAR2(10 BYTE), <p class='space'>PRIMARY KEY (CAR_ID) <p class='space'>);`, `SQL`],
     [`Insert row into table CAR:`, ``, ``, ``, ``, ``, `<p class='space'>INSERT INTO CAR VALUES (20001,'FORD','MUSTANG','2019','RED','GRAY'); `, `SQL`],
     [`Delet row from table CLIENT:`, ``, ``, ``, ``, ``, `<p class='space'>DELETE FROM CLIENT <p class='space'>WHERE CLIENT_LNAME = 'SMITH';`, `SQL`],
-    [`Update AREACODE in rows with LA HABRA as city:`, ``, ``, ``, ``, ``, `<p class='space'>UPDATE CLIENT <p class='space'>SET CLIENT_AREACODE = '310' <p class='space'>WHERE CLIENT_CITY = 'LA HABRA';`, `SQL`],
+    [`Update CLIENT table the AREACODE in rows with LA HABRA as city:`, ``, ``, ``, ``, ``, `<p class='space'>UPDATE CLIENT <p class='space'>SET CLIENT_AREACODE = '310' <p class='space'>WHERE CLIENT_CITY = 'LA HABRA';`, `SQL`],
 
 
 ];
