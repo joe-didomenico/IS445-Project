@@ -169,7 +169,7 @@ const mQuestionsAll = [
     [`Insert row into table CAR:`, ``, ``, ``, ``, ``, `<p class='space'>INSERT INTO CAR VALUES (20001,'FORD','MUSTANG','2019','RED','GRAY'); `, `SQL`],
     [`Delet row from table CLIENT:`, ``, ``, ``, ``, ``, `<p class='space'>DELETE FROM CLIENT <p class='space'>WHERE CLIENT_LNAME = 'SMITH';`, `SQL`],
     [`Update CLIENT table the AREACODE in rows with LA HABRA as city:`, ``, ``, ``, ``, ``, `<p class='space'>UPDATE CLIENT <p class='space'>SET CLIENT_AREACODE = '310' <p class='space'>WHERE CLIENT_CITY = 'LA HABRA';`, `SQL`],
-    [`How to rebaseline a repository:`, ``, ``, ``, ``, ``, `<p class='space'>git checkout --orphan temp_branch \\ create new branch with no history <p class='space'>git add -A  \\ add current files to branch - not required if -am option used for commit<p class='space'> git commit -am "the first commit"  \\ -am does combine and commit in one step  files <p class='space'>git branch -D master  \\ delete master branch <p class='space'>git branch -m master  \\rename current branch master <p class='space'>git push -f origin master  \\ push update to online repository `, `IS445`]
+    [`How to rebaseline a repository:`, ``, ``, ``, ``, ``, `<p class='space'>git checkout --orphan temp_branch \\ create new branch with no history <p class='space'>git add -A  \\ add current files to branch - not required if -am option used for commit<p class='space'> git commit -am "the first commit"  \\ -am combines add and commit in one step  files <p class='space'>git branch -D master  \\ delete master branch <p class='space'>git branch -m master  \\rename current branch master <p class='space'>git push -f origin master  \\ push update to online repository `, `IS445`]
 
 
 ];
